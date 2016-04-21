@@ -17,7 +17,7 @@ PKG_DATE:=2016.04.17
 PKG_BUILD_DIR:=$(BUILD_DIR)/v$(PKG_VERSION)-$(PKG_RELEASE)
 PKG_SOURCE:=softether-src-v$(PKG_VERSION)-$(PKG_RELEASE)-$(PKG_VERSION2).tar.gz
 PKG_SOURCE_URL:=http://jp.softether-download.com/files/softether/v$(PKG_VERSION)-$(PKG_RELEASE)-$(PKG_VERSION2)-$(PKG_DATE)-tree/Source_Code/
-PKG_MD5SUM:=317a20a74f9bd06618c0bacc368edd42
+PKG_MD5SUM:=9f75c4d9e6dcb6f7976f4f662562b26f
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
